@@ -10,11 +10,7 @@ Built with a production-style architecture using React, FastAPI, and Scikit-lear
 
 ### Frontend
 
-https://churn-frontend-eight.vercel.app/
-
-### Backend API
-
-https://churn-prediction-app-90ii.onrender.com/
+https://customer-churn-prediction-system-deployment.vercel.app/
 
 ---
 
