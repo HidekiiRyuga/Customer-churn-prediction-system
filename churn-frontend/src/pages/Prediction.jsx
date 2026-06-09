@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
+import { API_URL } from "../config";
 
 
 function Prediction() {
@@ -55,14 +56,12 @@ function Prediction() {
       
 
       const response = await fetch(
-        "https://churn-prediction-app-90ii.onrender.com/predict",
-        {
-
-          method: "POST",
-
-          headers: {
-            "Content-Type": "application/json"
-          },
+    `${API_URL}/predict`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
 
           body: JSON.stringify({
 
