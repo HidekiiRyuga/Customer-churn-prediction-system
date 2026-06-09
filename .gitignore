@@ -1,0 +1,84 @@
+# ======================
+
+# FRONTEND (React/Vite)
+
+# ======================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs
+
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Environment variables
+
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# ======================
+
+# BACKEND (Python)
+
+# ======================
+
+backend/**pycache**/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+
+# Virtual environments
+
+backend/venv/
+backend/.venv/
+backend/env/
+
+# Jupyter
+
+backend/.ipynb_checkpoints/
+
+# Environment variables
+
+backend/.env
+
+# ======================
+
+# OS FILES
+
+# ======================
+
+.DS_Store
+Thumbs.db
+
+# ======================
+
+# IDE FILES
+
+# ======================
+
+.vscode/
+.idea/
+
+# ======================
+
+# BUILD FILES
+
+# ======================
+
+dist/
+build/
+
+# ======================
+
+# CACHE
+
+# ======================
+
+.cache/
+.pytest_cache/
